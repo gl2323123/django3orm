@@ -12,7 +12,7 @@ class Phone(models.Model):
     slug = models.SlugField()
 
     def __str__(self):
-        return f"{self.id};" \ 
+        return f"{self.id};" \
                f" {self.name};" \
                f" {self.price};" \
                f" {self.image};" \
